@@ -247,7 +247,6 @@ body {
 .our-service p {
 	max-width: 681px;
 	margin: 0 auto;
-	height: 44px;
 	color: #5a5a5a;
 	font-family: 'Lato', sans-serif;
 	font-size: 15px;
@@ -255,18 +254,19 @@ body {
 	line-height: 30px;
 	letter-spacing: 0.38px;
 	text-align: center;
+	margin-bottom: 20px;
+	display: block;
 }
 .our-service .icon-our-services {
 	margin-top: 30px;
 }
 .icon-services {
 	width: 130px;
-	margin: 60px auto 0 auto;
+	margin: 50px auto 0 auto;
 }
 .our-service figure {
 	width: 130px;
 	height: 130px;
-	border: 1px solid #b3b3b3;
 	border-radius: 100px;
 	display: table-cell;
 	vertical-align: middle;
@@ -292,6 +292,8 @@ body {
 	opacity: 100%;
 	letter-spacing: 0.95px;	
 	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 /* Style for "Quotes" */
@@ -574,7 +576,6 @@ body {
 	font-size: 15px;
 	line-height: 30px;
 	max-width: 681px;
-	height: 134px;
 	margin: 0 auto;	
 }
 .additional-info-two button {
