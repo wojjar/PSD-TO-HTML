@@ -59,14 +59,12 @@ body {
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0 16px;
-	border: 2px solid red;
 }
 .container-fluid {
 	width: 100%;
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0 16px;
-	border: 2px solid red;
 }
 #header {
 	background : url("img/page_header.png") no-repeat;
@@ -168,7 +166,6 @@ body {
 	height: 646px;
 	position: relative;
 	height: auto;
-    border: 6px solid rgb(63, 205, 50);
 }
 .box-text-about {
 	min-height: 650px;
@@ -228,12 +225,10 @@ body {
 }
 
 /* Our Service */
-
 .our-service {
 	width: 100%;
 	display: table;
 	padding: 150px 0 120px 0;
-	border: 5px solid greenyellow;
 	height: 699px;
 }
 .red-line {
@@ -296,8 +291,7 @@ body {
 	margin-bottom: 10px;
 }
 
-/* Style for "Quotes" */
-
+/* Quotes */
 #quote {
 	background: url("img/quotes_background.png");
 	min-height: 500px;
@@ -317,8 +311,8 @@ body {
 	font-weight: 400;
 	letter-spacing: 0.63px;
   }
-/* Check our pricess*/
 
+/* Check our pricess*/
 #check-our-prices {
 	background: #f4f4f4;
 	padding: 120px 0 100px;
@@ -398,7 +392,7 @@ body {
 	  background: #ed145b;
 }
   
-  /*  info */
+/*  Info */
 .add-info {
 	padding: 70px 0 90px 0;
 }
@@ -418,8 +412,7 @@ body {
 	color: #838383;
 }
 
-/*--join-us  */
-
+/*--Join-us  */
 .join {
 	width: 100%;
 	background-color: #ed145b;
@@ -453,7 +446,6 @@ body {
 }
 
 /*--Our Latest Updates  */
-
 .updates-text-container h2 {
 	color: #5a5a5a;
 	font-style: italic;
@@ -462,8 +454,7 @@ body {
 	line-height: 52px;
 	letter-spacing: 0.95px;
 	text-align: center;
-	margin-top: 150px;
-	
+	margin-top: 150px;	
 }
 .updates-text-container p {
 	color: #5a5a5a;
@@ -473,7 +464,6 @@ body {
 	letter-spacing: 0.38px;
 	padding-bottom: 20px;
 	text-align: center;
-
 	margin: 0 auto 40px auto
 }
 .content h4 {
@@ -502,7 +492,6 @@ body {
 	padding-bottom: 25px;
 	margin-top: 40px;
 }
-
 .picture-updates img {
     width: 100%;
     display: block;
@@ -543,13 +532,11 @@ body {
 	height: 45px;
 }
 
-
-/*--additional-info-two */
-
+/* Additional-info-two */
 .additional-info-two {
 	width: 100%;
 	min-height: 650px;
-	
+	background: url("img/add_info_two.png");
 	background-size: cover;
 	background-position: center;
 	display: table;
@@ -590,12 +577,13 @@ body {
 	font-size: 15px;
 	margin-top: 55px;
 }
-/* Download-now */
 
+/* Download-now */
 .download-now {
 	background-color: #f4f4f4;
 	padding-top: 75px;
 	padding-bottom: 75px;
+	height: 754px;
 }
 .download-now button {
 	width: 200px;
@@ -609,46 +597,49 @@ body {
 	font-size: 15px;
 	margin-top: 40px;
 	margin-bottom: 70px;
-}
-.figure-download {
-	
-	border: 2px solid yellow;
-
+	margin-left: 72px;
+	text-align: center;
 }
 .figure-column{
 	position: absolute;
-	left: -236px;
-	border: 2px solid red;
+	left: -236px;	
+}
+.download-now p {
+	color: #5a5a5a;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 0.38px;
+	padding-left: 72px;
+	display: block;	
+}
+.download-now h2 {
+	color: #5a5a5a;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 52px;
+	margin: 75px 0 0 72px;
+	font-style: italic;
 }
 
-
-
 /* Footer */ 
-
 footer {
 	padding-top: 65px;
 	padding-bottom: 65px;
 	background-color: #2b2b2b;
 }
-.footer-first {
+.footer-one {
 	font-size: 15px;
 	font-weight: 400;
 	color: #ffffff;
 	margin: 0;
 }
-.footer-second {
-	font-size: 16px;
-	font-weight: 400;
-	color: #ffffff;
-	margin: 0;
-	margin-right: 70px;
-}
-.logo-symu {
+.symu-logo {
 	position: absolute;
 	top: 3px;
 	right: 0;
 }
-.symu-col {
+.symu-footer {
 	position: relative;
 	text-align: right;
 }
@@ -658,7 +649,14 @@ footer {
 @media (max-width: 992px) {
 
 /* Download-now */
-
+.download-now {
+	height: auto ;
+	text-align: center;
+}
+.download-now h2 {
+	max-width: 600px;
+	margin: 75px auto 0 auto;
+}
 .figure-download {
 	width: 100%;
 	height: auto ;
@@ -668,7 +666,6 @@ footer {
 }
 
 /* About */
-
 .figure-about {
 	position: static;
 	margin-top: 80px;
