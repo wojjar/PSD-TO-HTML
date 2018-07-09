@@ -611,6 +611,7 @@ body {
 	letter-spacing: 0.38px;
 	padding-left: 72px;
 	display: block;	
+	text-align: center;
 }
 .download-now h2 {
 	color: #5a5a5a;
@@ -653,6 +654,10 @@ footer {
 	text-align: center;
 }
 .download-now h2 {
+	max-width: 600px;
+	margin: 75px auto 0 auto;
+}
+.download-now p {
 	max-width: 600px;
 	margin: 75px auto 0 auto;
 }
