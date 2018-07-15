@@ -166,6 +166,7 @@ body {
 	height: 646px;
 	position: relative;
 	height: auto;
+		background-color: #f4f4f4;
 }
 .box-text-about {
 	min-height: 650px;
