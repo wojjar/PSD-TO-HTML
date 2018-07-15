@@ -176,6 +176,7 @@ body {
 	vertical-align: middle;
 	font-weight: 300;
 	padding-right: 10px;
+	text-align: center;
 }
 .about .about-text .line{
 	margin: 40px 0;
@@ -235,9 +236,7 @@ body {
 	width: 200px;
 	height: 2px;
 	background-color: #ed145b;
-	margin: 0 auto;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin: 40px auto;
 }
 .our-service p {
 	max-width: 681px;
